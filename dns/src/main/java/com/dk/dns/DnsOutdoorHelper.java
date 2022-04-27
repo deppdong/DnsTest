@@ -13,6 +13,7 @@ import com.github.druk.rx2dnssd.Rx2DnssdEmbedded;
 import java.net.Inet4Address;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
@@ -26,7 +27,8 @@ public class DnsOutdoorHelper {
     private Rx2Dnssd rxdnssd;
     private BonjourService selfService;
 
-    private List<BonjourService> indoorService = new ArrayList<>();
+//    private List<BonjourService> indoorService = new ArrayList<>();
+    private ConcurrentHashMap<String, BonjourService> servicesMap = new ConcurrentHashMap<String, BonjourService>();
     
     public void init(Context context, String outdoorId) {
         if (selfService != null) {
@@ -63,15 +65,26 @@ public class DnsOutdoorHelper {
                     Log.d("TAG", "browser indoor: " + bonjourService.toString());
                     dump(bonjourService);
                     if (bonjourService.isLost()) {
-                        indoorService.remove(bonjourService);
+                        BonjourService cached = servicesMap.get(bonjourService.getHostname());
+                        if (cached == null || cached.getInet4Address() == null)  return;
+                        if (cached.getInet4Address().getHostAddress().equals(bonjourService.getInet4Address().getHostAddress())) {
+                            servicesMap.remove(bonjourService.getHostname());
+                        }
+//                        indoorService.remove(bonjourService);
                     } else {
-                        indoorService.add(bonjourService);
+                        if (bonjourService.getInet4Address() != null) {
+                            servicesMap.put(bonjourService.getHostname(), bonjourService);
+                        }
+//                        indoorService.add(bonjourService);
                     }
                 }, throwable -> Log.e("TAG", "error", throwable));
     }
 
-    public String getIp4(String indoorId) {
-        // TODO find ip outdoorService
+    public String getIp4(String outdoorId) {
+        BonjourService cached = servicesMap.get(outdoorId);
+        if (cached != null) {
+            return cached.getInet4Address().getHostAddress();
+        }
         return "";
     }
 
@@ -79,7 +92,7 @@ public class DnsOutdoorHelper {
         Log.d(TAG, "dump: " + service);
         Inet4Address ip4 = service.getInet4Address();
         if (ip4 != null   ) {
-            Log.d(TAG, "dump: " + ip4.getHostAddress() + " " + ip4.getHostName());
+            Log.d(TAG, "dump: " + ip4.getHostAddress() );
         }
     }
 }
