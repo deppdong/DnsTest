@@ -10,6 +10,7 @@ import com.github.druk.rx2dnssd.Rx2Dnssd;
 import com.github.druk.rx2dnssd.Rx2DnssdBindable;
 import com.github.druk.rx2dnssd.Rx2DnssdEmbedded;
 
+import java.net.Inet4Address;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,6 +61,7 @@ public class DnsOutdoorHelper {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(bonjourService -> {
                     Log.d("TAG", "browser indoor: " + bonjourService.toString());
+                    dump(bonjourService);
                     if (bonjourService.isLost()) {
                         indoorService.remove(bonjourService);
                     } else {
@@ -71,5 +73,13 @@ public class DnsOutdoorHelper {
     public String getIp4(String indoorId) {
         // TODO find ip outdoorService
         return "";
+    }
+
+    private void dump (BonjourService service) {
+        Log.d(TAG, "dump: " + service);
+        Inet4Address ip4 = service.getInet4Address();
+        if (ip4 != null   ) {
+            Log.d(TAG, "dump: " + ip4.getHostAddress() + " " + ip4.getHostName());
+        }
     }
 }
