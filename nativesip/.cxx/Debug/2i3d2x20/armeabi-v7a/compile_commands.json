@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/.cxx/Debug/2i3d2x20/armeabi-v7a",
+  "command": "/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dpjsua2_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/pjsua2.dir/pjsua2.cpp.o -c /Users/developer/Desktop/and_workspace/DnsTest/nativesip/src/main/cpp/pjsua2.cpp",
+  "file": "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/src/main/cpp/pjsua2.cpp"
+}
+]

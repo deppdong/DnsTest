@@ -1,0 +1,7 @@
+Executable : /Users/developer/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/developer/Desktop/and_workspace/DnsTest/nativesip/.cxx/Debug/2i3d2x20/arm64-v8a
+pjsua2
+jvmArgs : 
+

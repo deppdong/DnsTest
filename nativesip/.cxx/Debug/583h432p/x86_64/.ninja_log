@@ -1,0 +1,5 @@
+# ninja log v5
+0	870	1650956164	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	68cc75a200fffa2c
+871	1099	1650956164	/Users/developer/Desktop/and_workspace/SipCall/SipP2p/nativesip/build/intermediates/cxx/Debug/583h432p/obj/x86_64/libpjsua2.so	97ceac4e6fe9608f
+2	65	1650956189	/Users/developer/Desktop/and_workspace/SipCall/SipP2p/nativesip/build/intermediates/cxx/Debug/583h432p/obj/x86_64/libpjsua2.so	97ceac4e6fe9608f
+19	208	1650957572	/Users/developer/Desktop/and_workspace/SipCall/SipP2p/nativesip/build/intermediates/cxx/Debug/583h432p/obj/x86_64/libpjsua2.so	97ceac4e6fe9608f

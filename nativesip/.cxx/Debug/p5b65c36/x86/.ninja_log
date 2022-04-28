@@ -1,0 +1,10 @@
+# ninja log v5
+0	5	0	clean	ed33387e5b721419
+0	345	1650788264	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	c839e60276a6bde6
+345	419	1650788264	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/x86/libpjsua2.so	4c07261fa59c4227
+1	6	0	clean	ed33387e5b721419
+1	330	1650788318	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	c839e60276a6bde6
+330	402	1650788318	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/x86/libpjsua2.so	4c07261fa59c4227
+1	6	0	clean	ed33387e5b721419
+1	340	1650789908	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	c839e60276a6bde6
+341	412	1650789908	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/x86/libpjsua2.so	4c07261fa59c4227

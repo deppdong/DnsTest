@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/developer/Desktop/and_workspace/SipP2p/nativesip/.cxx/Debug/p5b65c36/arm64-v8a'
+[1/1] Linking CXX shared library /Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so

@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/developer/Desktop/and_workspace/SipP2p/nativesip/.cxx/Debug/p5b65c36/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/pjsua2.dir/pjsua2.cpp.o
+[2/2] Linking CXX shared library /Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/armeabi-v7a/libpjsua2.so

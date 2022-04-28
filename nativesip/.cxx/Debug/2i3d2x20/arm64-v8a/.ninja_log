@@ -1,0 +1,17 @@
+# ninja log v5
+0	461	1651128357	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	9fd8ef81cf44f2d8
+461	532	1651128357	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	239	1651128500	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	180	1651128611	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	186	1651129520	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+0	217	1651129744	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	227	1651130025	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	51	1651130059	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	185	1651130251	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	229	1651130585	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	68	1651130626	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	199	1651131798	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	211	1651131965	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	202	1651132002	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+1	88	1651132009	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f
+2	221	1651132112	/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so	fbffbb9d53db172f

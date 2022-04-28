@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/developer/Desktop/and_workspace/SipP2p/nativesip/.cxx/Debug/p5b65c36/x86_64",
+  "command": "/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dpjsua2_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/pjsua2.dir/pjsua2.cpp.o -c /Users/developer/Desktop/and_workspace/SipP2p/nativesip/src/main/cpp/pjsua2.cpp",
+  "file": "/Users/developer/Desktop/and_workspace/SipP2p/nativesip/src/main/cpp/pjsua2.cpp"
+}
+]

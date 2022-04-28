@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DnsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/DnsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DnsTest.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DnsTest.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dns/DnsTest.dns.iml" filepath="$PROJECT_DIR$/.idea/modules/dns/DnsTest.dns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nativesip/DnsTest.nativesip.iml" filepath="$PROJECT_DIR$/.idea/modules/nativesip/DnsTest.nativesip.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+# ninja log v5
+0	46	1650787333	build.ninja	c91d8799dac2b066
+0	5	0	clean	ed33387e5b721419
+1	651	1650788226	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	c9bf20031175c882
+651	742	1650788226	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8
+0	5	0	clean	ed33387e5b721419
+0	5	0	clean	ed33387e5b721419
+1	669	1650788263	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	c9bf20031175c882
+669	764	1650788263	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8
+0	5	0	clean	ed33387e5b721419
+1	502	1650788317	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	c9bf20031175c882
+502	582	1650788317	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8
+2	316	1650788794	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8
+1	7	0	clean	ed33387e5b721419
+1	610	1650789907	CMakeFiles/pjsua2.dir/pjsua2.cpp.o	c9bf20031175c882
+611	698	1650789907	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8
+1	63	1650789994	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8
+1	93	1650790205	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8
+2	104	1650790258	/Users/developer/Desktop/and_workspace/SipP2p/nativesip/build/intermediates/cxx/Debug/p5b65c36/obj/arm64-v8a/libpjsua2.so	f003d306f65e08b8

@@ -41,4 +41,45 @@
         app:layout_constraintEnd_toStartOf="@id/deviceId"
         app:layout_constraintTop_toBottomOf="@id/btn_indoor"/>
 
+
+
+    <EditText
+        android:id="@+id/sip_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="对方名字"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@id/deviceId"
+        app:layout_constraintTop_toBottomOf="@id/btn_outdoor"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="拨号"
+        android:onClick="dial"
+        app:layout_constraintEnd_toStartOf="@id/deviceId"
+        app:layout_constraintTop_toBottomOf="@id/sip_dial"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="接听"
+        android:onClick="accept"
+        app:layout_constraintEnd_toStartOf="@id/deviceId"
+        app:layout_constraintTop_toBottomOf="@id/btn_dial"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_hangup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="挂断"
+        android:onClick="hangup"
+        app:layout_constraintEnd_toStartOf="@id/deviceId"
+        app:layout_constraintTop_toBottomOf="@id/btn_accept"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

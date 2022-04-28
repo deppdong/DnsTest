@@ -1,0 +1,3 @@
+/Users/developer/Desktop/and_workspace/DnsTest/nativesip/.cxx/Debug/2i3d2x20/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/developer/Desktop/and_workspace/DnsTest/nativesip/.cxx/Debug/2i3d2x20/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/developer/Desktop/and_workspace/DnsTest/nativesip/.cxx/Debug/2i3d2x20/armeabi-v7a/CMakeFiles/pjsua2.dir

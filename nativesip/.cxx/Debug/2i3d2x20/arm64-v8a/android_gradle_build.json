@@ -1,0 +1,43 @@
+{
+  "buildFiles": [
+    "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/developer/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/.cxx/Debug/2i3d2x20/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/developer/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/.cxx/Debug/2i3d2x20/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "pjsua2::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "pjsua2",
+      "output": "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/build/intermediates/cxx/Debug/2i3d2x20/obj/arm64-v8a/libpjsua2.so",
+      "runtimeFiles": [
+        "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/libs/arm64-v8a/libopenh264.so",
+        "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/libs/arm64-v8a/libbcg729.so",
+        "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/libs/arm64-v8a/libopus.so",
+        "/Users/developer/Desktop/and_workspace/DnsTest/nativesip/libs/arm64-v8a/libpjsua2.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/developer/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
